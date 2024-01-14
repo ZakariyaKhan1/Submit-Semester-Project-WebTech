@@ -1,0 +1,84 @@
+html{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.Mainfooter{
+    width: 100%;
+    height: 340px;
+    
+}
+
+.footer1{
+    width: 88%;
+    height: 100%;
+    margin: 0 auto;
+     position: relative;
+     background-color: #f4f3f3;
+
+}
+.footerA{
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 4%;
+}
+.footerA img{
+    
+}
+.line{
+    position: relative;
+    display: flex;
+    right: 4%;
+    height: 50px;
+    width: .5px;
+    background-color: black;
+    
+}
+.footerA img{
+    height: 200px;
+    position: relative;
+    left: -43%;
+}
+.findus{
+    position: relative;
+    right: 1.5%;
+
+}
+.findus p{
+    font-size: large;
+    color: black;
+}
+
+
+.footerB{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    top: -12%;
+ 
+
+}
+.information{
+    height: 100px;
+    width: 300px;
+    
+
+}
+.information h2{
+    color: black;
+    font-size: large;
+}
+.information a{
+    text-decoration: none;
+    color: black;
+}
+.images{
+   
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,15 @@
+.cat-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.category1{
+    width: 88%;
+
+}
+.category2{
+    width: 200px;
+    height: 400px;
+    background-color: black;
+}

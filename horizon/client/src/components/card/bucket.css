@@ -1,0 +1,70 @@
+.bucket-container {
+     width: 100%;
+    margin-top: 20px;
+    
+    display: flex;
+    justify-content: center;
+  }
+  .bc-2{
+    width: 88%;
+    
+  }
+  
+  .bucket-list {
+    width: 40%;
+    list-style: none;
+    padding: 0;
+    display: block;
+    justify-content: center;
+    position: relative;
+    left: 35%;
+   
+    
+  }
+  .btn1{
+    background-color: orange;
+    padding: 14px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .bucket-item {
+    width: 70%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+    justify-content: space-around;
+    text-align: start;
+  }
+  
+  .bucket-item-image {
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+ 
+  }
+  .bucket-item-image img{
+    object-fit: cover;
+  
+  }
+  
+  .bucket-item-details {
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  .bucket-item-title {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .bucket-item-price {
+    margin: 0;
+    color: #888;
+  }
+  

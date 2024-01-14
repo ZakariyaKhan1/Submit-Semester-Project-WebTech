@@ -1,0 +1,155 @@
+.maincart{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.Cartcontainer{
+width: 88%; 
+background-color: #f7f7f7;
+
+ 
+}
+.backbtn{
+    width: 100%;
+    height: 50px;
+}
+.backbtn button{
+    background-color: orangered;
+    padding: 10px 15px;
+    border: none;
+    color: white;
+}
+.cartcontainer2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.cartdetails{
+  
+    width: 100%;
+
+  
+    
+}
+
+.product{
+    width: 83%;
+    justify-content: space-between;
+    padding: 45px 110px;
+    gap: 30px;
+    display: flex;
+    
+}
+.imagep{
+    width: 400px;
+    height: 400px;
+    border-right: 2px solid gray;
+    
+}
+.imagep img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.details{
+    width: 60%;
+    height: 500px;  
+}
+.d-title{
+    width: 100%;
+    height: 20%;
+    border-bottom: 2px solid gray;
+    text-align: start;
+    display: flex;
+    justify-content: start;
+}
+.d-title p{
+    text-align: start;
+}
+.d-details{
+    width: 100%;
+    height: 40%;
+    border-bottom: 2px solid gray;
+    justify-content: start;
+    align-items: center;
+    text-align: start  ;
+}
+.d-details p{
+    text-align: start;
+}
+.d-price{
+    width: 100%;
+    height: 19%;
+    border-bottom: 2px solid gray;
+    display: flex;
+    justify-content: start;
+}
+.d-btn{
+    width: 100%;
+    height: 19%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+
+}
+.d-btn button{
+    background-color: rgb(0, 115, 255);
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-size: medium;
+    font-weight: bold;
+}
+.moreproducts{
+    width: 100%;
+    height: 300px;
+    
+}
+.product-color {
+    margin-bottom: 30px;
+  }
+   
+  .color-choose div {
+    display: inline-block;
+  }
+   
+  .color-chooser {
+    margin-bottom: 20px;
+  }
+
+  .color-chooser h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  .color-chooser label {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  .color-chooser input[type="radio"] {
+    display: none;
+  }
+
+  .color-chooser input[type="radio"] + label {
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+
+  .color-chooser input[type="radio"]:checked + label {
+    background-color: #e0e0e0;
+    border-color: #999;
+  }
+
+   
+  
+

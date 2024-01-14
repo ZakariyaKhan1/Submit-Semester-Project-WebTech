@@ -1,0 +1,53 @@
+.buynowconatiner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.buynowconatiner2{
+    width: 88%;
+}
+.buy-now-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+  }
+  
+  .buy-now-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .buy-now-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-label {
+    margin-bottom: 10px;
+  }
+  
+  .form-input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .form-submit-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .form-submit-btn:hover {
+    background-color: #0056b3;
+  }
+
+  
